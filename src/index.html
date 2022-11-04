@@ -1,46 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hilltop Tutors</title>
+    <!-- linking font-awesome  -->
+
+    <!-- linking css file -->
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/Poppins/Poppins-MediumItalic.ttf">
+
+    <!-- linking google fonts -->
+    <!-- <link rel="stylesheet" href="./css/Poppins/Poppins-ThinItalic.ttf"> -->
 </head>
+
 <body>
-    
-<!-- header section starts -->
+
+    <!-- header section starts -->
 
 
-<header>
+    <header class="header">
 
-    <div class="header-1">
+        <div class="header-1">
 
-        <a href="#" class="logo"> <i class="fas fa-book"></i> HillTop Tutors</a>
+            <a href="#" class="logo"> <i class="fas fa-book"></i> HillTop Tutors</a>
 
-        <form action="" class="search-form">
-            <input type="search" name="" placeholder="search here....." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
-        
-        <div class="icons">
-            <div id="search-btn" class="fas fa-search"></div>
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <div id="login-btn" class="fas fa-user"></div>
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here....." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search">a</div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user">a</div>
+            </div>
+
         </div>
 
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#features">features</a>
+                <a href="#tutors">Tutors</a>
+                <a href="#reviews">reviews</a>
+                <a href="#blogs">blogs</a>
+                <a href="#contacts">contacts</a>
+            </nav>
+        </div>
+
+    </header>
+
+
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar starts -->
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home">a</a>
+        <a href="#features" class="fas fa-list">a</a>
+        <a href="#tutors" class="fas fa-users">a</a>
+        <a href="#reviews" class="fas fa-comments">a</a>
+        <a href="#blogs" class="fas fa-blogs"></a>
+        <a href="#contacts" class="fas fa-phone"></a>
+    </nav>
+
+    <!-- bottom navbar ends -->
+
+    <!-- login form starts -->
+
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times">a</div>
+
+        <form action="">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="email" name="" placeholder="input your email" class="box">
+
+            <span>password</span>
+            <input type="password" name="" placeholder="input your password" class="box">
+
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> remember-me</label>
+            </div>
+
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password ? <a href="#">click here</a></p>
+            <p>don't have an account ? <a href="#">create one</a></p>
+
+        </form>
+
     </div>
-        
-</header>
+
+    <!-- login form ends -->
 
 
+    <!-- home section starts  -->
 
-<!-- header section ends -->
+    <section class="home" id="home">
+
+        <div class="row">
+
+            <div class="content">
+                <h3>Our Amazing Tutors</h3>
+                    <p>We started with a goal in mind to ensure we not only Teach our Students but at the same time
+                        create a beneficial connection with Our Students</p>
+                    <a href="#" class="btn">Order a Tutor Now</a>
+            </div>
+
+            <div class="books-slider">
+                <div class="wrapper">
+                    <a href="#"><img src="./Img/book-1.png" alt=""></a>
+                <a href="#"><img src="./Img/book-2.png" alt=""></a>
+                <a href="#"><img src="./Img/book-3.png" alt=""></a>
+                <a href="#"><img src="./Img/book-4.png" alt=""></a>
+                <a href="#"><img src="./Img/book-5.png" alt=""></a>
+                <a href="#"><img src="./Img/book-6.png" alt=""></a>
+                </div>
+                <img src="./Img/stand.png" class="stand" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
 
 
 
     <script src="./web.js"></script>
 </body>
+
 </html>
